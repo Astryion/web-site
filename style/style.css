@@ -1,0 +1,694 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.start-2 {
+  background: #36aab1;
+  width: 1477px;
+  height: 732px;
+
+}
+
+.menu {
+  border: 3px solid rgb(5, 84, 14);
+  background-color: rgb(187, 207, 193);
+  width: 1050px;
+  height: 350px;
+  position: absolute;
+  z-index: 2;
+  left: 70px;
+  top: -30px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px black;
+  z-index: 2;
+}
+
+.menu img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 450px;
+}
+
+#btn1 {
+  width: 250px;
+  height: 65px;
+  z-index: 4;
+  position: absolute;
+  left: 570px;
+  top: 70px;
+  border-radius: 15px;
+}
+
+#btn1 a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 300%;
+  
+}
+
+#btn2 {
+  width: 250px;
+  height: 65px;
+  z-index: 4;
+  position: absolute;
+  left: 850px;
+  top: 70px;
+  border-radius: 15px;
+}
+
+#btn2 a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 280%;
+}
+
+#btn3 {
+  width: 250px;
+  height: 65px;
+  z-index: 4;
+  position: absolute;
+  left: 570px;
+  top: 200px;
+  border-radius: 15px;
+}
+
+#btn3 a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 300%;
+}
+
+#btn4 {
+  width: 250px;
+  height: 65px;
+  z-index: 4;
+  position: absolute;
+  left: 850px;
+  top: 200px;
+  border-radius: 15px;
+}
+
+#btn4 a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 280%;
+}
+
+.logo img {
+  position: absolute;
+  left: 35%;
+  width: 400px;
+  top: 25px;
+}
+
+.nome {
+  position: fixed;
+  right: 80px;
+  border: 3px solid rgb(5, 84, 14);
+  width: 225px;
+  background-color: rgb(37, 172, 53);
+  z-index: 10;
+  border-radius: 20px;
+  height: 60px;
+  top: 10px;
+  box-shadow: 0 0 100px black;
+}
+
+.nome a {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  z-index: 10;
+  font-size: 1.5rem;
+  /* text-decoration: none; */
+  color: rgb(91, 46, 250);
+}
+
+.nome img {
+  position: absolute;
+  width: 35px;
+  left: 7px;
+  top: 13px;
+}
+
+.start {
+  background-image: url(https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-956.jpg?w=2000);
+  width: 1477px;
+  height: 1332px;
+}
+
+.start-text {
+  background-color: rgb(173, 217, 189);
+  border-radius: 30px;
+  position: absolute;
+  top: 390px;
+  width: 100%;
+  font-size: 1.2rem;
+  max-width: 900px;
+  height: 845px;
+  left: 150px;
+  box-shadow: 0 0 100px black;
+  border: 2px solid black;
+  scale: 1.1;
+}
+
+.start-text p {
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  top: 20px;
+  font-size: 1.2rem;
+  max-width: 850px;
+  height: 815px;
+  left: 20px;
+  z-index: 2;
+}
+
+.start-text h2 {
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  top: -27px;
+  font-size: 1.9rem;
+  max-width: 850px;
+  height: 815px;
+  left: 35%;
+  z-index: 2;
+}
+
+.instruk {
+  padding: 0px 10px 20px 20px;
+  position: absolute;
+  top: 100px;
+  left: 1160px;
+  background-color: rgb(173, 217, 189);
+  border-radius: 30px;
+  width: 270px;
+  height: 180px;
+  border: 3px solid black;
+  font-size: 1.3rem;
+  z-index: 1;
+  box-shadow: 0 0 70px black;
+}
+
+.instruk_text1 {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+  width: 100%;
+}
+
+.dop_vid {
+  position: absolute;
+  width: 200px;
+  top: 130px;
+  left: 1150px;
+  z-index: 4;
+  box-shadow: 0 0 70px black;
+  
+}
+
+.dop_vid_1 {
+  position: absolute;
+  border: 4px solid black;
+  border-radius: 30px;
+  width: 300px;
+  box-shadow: 0 0 70px black;
+
+}
+
+
+/* .............................................. */
+
+.p-li {
+  position: absolute;
+  top: 360px;
+}
+
+.p-list {
+  width: 1477.5px;
+}
+
+.error {
+  position: absolute;
+  top: 760px;
+  color: #dde7df;
+  font-size: 80px;
+  left: 634px;
+
+}
+
+/* ......................o-kompony..................... */
+
+.o-ko-1 {
+  position: absolute;
+  top: 300px;
+  width: 1077px;
+  left: -500px;
+  z-index: 1;
+}
+
+.o-ko-2 {
+  position: absolute;
+  top: 330px;
+  width: 1077px;
+  left: 400px;
+}
+
+.o-ko-3 {
+  position: absolute;
+  top: 900px;
+  width: 777px;
+  left: 0px;
+}
+
+.o-ko-4 {
+  position: absolute;
+  top: 900px;
+  width: 727px;
+  height: 435px;
+  left: 750px;
+}
+
+/* .......................товары....................... */
+
+/* 1 */
+
+
+.t-vid-1:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-1 {
+  position: absolute;
+  top: 570px;
+  left: 155px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 4;
+}
+
+.t-vid-1{
+  z-index: 3;
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 390px;
+  height: 230px;
+  position: absolute;
+  top: 360px;
+  left: 90px;
+  transition: 1s;
+  background-color: black;
+  
+}
+
+/* 2 */
+
+.t-vid-2:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-2 {
+  position: absolute;
+  top: 570px;
+  left: 630px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 4;
+}
+
+.t-vid-2 {
+  z-index: 3;
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 390px;
+  height: 230px;
+  position: absolute;
+  top: 360px;
+  left: 560px;
+  transition: 1s;
+  background-color: black;
+  
+}
+
+/* 3 */
+
+.t-vid-3:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-3 {
+  position:absolute;
+  top: 570px;
+  left: 1155px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 2;
+}
+
+.t-vid-3 {
+  z-index: 3;
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 390px;
+  height: 230px;
+  position: absolute;
+  top: 360px;
+  left: 1030px;
+  transition: 1s;
+  background-color: black;
+  
+}
+
+/* 4 */
+
+.t-vid-4:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 70px black;
+}
+
+.t-b-p-4 {
+  position: absolute;
+  top: 900px;
+  left: 205px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  z-index: 4;
+}
+
+.t-vid-4{
+  z-index: 3;
+  border: 3px solid black;
+  border-radius: 34px;
+  width: 390px;
+  height: 230px;
+  position: absolute;
+  top: 690px;
+  left: 90px;
+  transition: 1s;
+  background-color: black;
+  
+}
+
+/* _______ */
+
+.rus_1 {
+  position: absolute;
+  top: 340px;
+}
+.kaz_2 {
+  position: absolute;
+  left: 510px;
+  top: 340px;
+}
+.kg_3 {
+  position: absolute;
+  left: 1017px;
+  top: 340px;
+}
+.rus {
+  position: absolute;
+  top: 700px;
+  left: 130px;
+  font-size: 40px;
+}
+.kaz {
+  position: absolute;
+  top: 700px;
+  left: 630px;
+  font-size: 40px;
+
+}
+.kg {
+  position: absolute;
+  top: 700px;
+  left: 1140px;
+  font-size: 40px;
+
+}
+
+
+@media (max-width: 720px) {
+  .menu {
+    width: 90%;
+    height: 82%;
+    left: 5%;
+    top: 3%;
+    z-index: 6;
+  }
+  .menu img {
+    width: 80%;
+    top: 2%;
+  }
+  .logo img {
+    position: absolute;
+    left: 10%;
+  }
+  
+  .start {
+    background-image: url(https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-956.jpg?w=2000);
+    width: 100%;
+  }
+  .instruk {
+    left: 10%;
+    top: 88%;
+    width: 75%;
+    height: 20%;
+  }
+  .instruk_zag1{
+    position: absolute;
+    top: -10%;
+    width: 100%;
+  }
+  .instruk_text1 {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+  .nome {
+    position: fixed;
+    top: 5%;
+    right: 6%;
+
+  }
+  .nome img {
+    left: 4%;
+  }
+  #btn1 {
+    left: 10%;
+    top: 41%;
+    z-index: 7;
+  }
+  #btn2 {
+    left: 40%;
+    top: 52%;
+    z-index: 7;
+  }
+  #btn3 {
+    left: 10%;
+    top: 63%;
+    z-index: 7;
+  }
+  #btn4 {
+    left: 40%;
+    top: 74%;
+    z-index: 7;
+  }
+  
+  /* __glav__ */
+
+  .t-vid-1 {
+    top: 120%;
+    left: 5%;
+    width: 40%;
+    height: 20%;
+    z-index: 4;
+  }
+  .t-b-p-1 {
+    font-size: 20px;
+    top: 139%;
+    left: 13%;
+    height: 20%;
+  }
+  
+  .t-vid-2 {
+    top: 120%;
+    left: 53%;
+    width: 40%;
+    height: 20%;
+    z-index: 5;
+  }
+  .t-b-p-2 {
+    font-size: 20px;
+    top: 139%;
+    left: 60%;
+    height: 20%;
+  }
+
+  .t-vid-3 {
+    top: 148%;
+    left: 5%;
+    width: 40%;
+    height: 20%;
+    z-index: 5;
+  }
+  .t-b-p-3 {
+    font-size: 20px;
+    top: 167%;
+    left: 16%;
+    height: 20%;
+  }
+
+  .t-vid-4 {
+    top: 148%;
+    left: 53%;
+    width: 40%;
+    height: 20%;
+    z-index: 5;
+  }
+  .t-b-p-4 {
+    font-size: 20px;
+    top: 167%;
+    left: 65.5%;
+    height: 20%;
+  }
+
+  /* __okomp__ */
+
+  .o-ko-2 {
+    z-index: 2;
+    width: 100%;
+    top: 83%;
+    left: 0%;
+  }
+  .o-ko-1 {
+    z-index: 2;
+    width: 100%;
+    top: 121%;
+    left: 0%;
+  }
+  .o-ko-3 {
+    z-index: 2;
+    width: 100%;
+    top: 196%;
+    left: 0%;
+  }
+  .o-ko-4 {
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    top: 158%;
+    left: 0%;
+  }
+  .dop_vid {
+    top: 235%;
+    left: 0%;
+  }
+  .dop_vid_1 {
+    border-radius: 0px;
+    width: 237.7%;
+    box-shadow: 0 0 0px black;
+  }
+
+  /* ______ */
+
+  .p-list {
+    width: 100%;
+  }
+  .p-li {
+    top: 90%;
+  }
+  .start-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .error {
+    left: 42.8%;
+    top: 108.3%;
+    font-size: 2rem;
+  }
+  /* ____ */
+
+  .rus_1 {
+  left: 1.5%;
+  top: 87%;
+  }
+  .kaz_2 {
+  left: 1.5%;
+  top: 157%;
+  }
+  .kg_3 {
+  left: 1.5%;
+  top: 228%;
+  }
+  .rus {
+  left: 28%;
+  top: 142%;
+  }
+  .kaz {
+  left: 25%;
+  top: 212%;
+  }
+  .kg {
+  left: 24%;
+  top: 283%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.background {
+  background-image: url(https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-956.jpg?w=2000);
+  scale: 1.11;
+  height: 1332px;
+  transform: rotate(90deg);
+}
